@@ -1,0 +1,46 @@
+
+html,
+body,
+#maincontainer {
+  background-color: #FF9933;
+  font-family: Times, serif;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+}
+body {
+  color: white;
+}
+
+.fact{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 1px;
+  margin-bottom: 1px;
+
+}
+.fact:hover {
+  cursor: e-resize;
+  background-color: #138808;
+}
+h2 {
+  color: #000080;
+}
+h4 {
+  color: #FF9933;
+}
+.column {
+  margin: 5;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  }
+
+#right {
+  padding: 12px;
+}
+
+#right img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
